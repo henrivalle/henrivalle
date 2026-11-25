@@ -2,9 +2,19 @@
 
 My current work focuses on applied AI and machine learning in software engineering and education. At Universidade Evangélica de Goiás (UniEVANGÉLICA), I teach Algorithms and Programming, serve as Pedagogical Coordinator for Software Engineering, and coordinate a postgraduate program in Artificial Intelligence and Data Science. I also serve on the Núcleo Docente Estruturante (NDE) for Software Engineering in Anápolis and Ceres and for Artificial Intelligence. [Postgraduate program](https://www4.unievangelica.edu.br/especializacao-mba/pos-graduacao-em-inteligencia-artificial-e-data-science)
 
-I hold a PhD in Computer Science from Universidade Federal de Goiás (UFG). My graduate research covered 5G network slicing and wireless resource allocation, and I maintain reproducible teaching tools based on that work.
+I hold a PhD in Computer Science and a graduate specialization in Generative Artificial Intelligence from Universidade Federal de Goiás (UFG). My specialization capstone compared cascaded and speech-to-speech architectures for Brazilian Portuguese voice assistants, focusing on latency and preservation of semantic intent. [Currículo Lattes](https://lattes.cnpq.br/1807688763533892)
 
-## Selected projects
+## Applied AI projects
+
+- [RAG Retrieval Eval](https://github.com/henrivalle/rag-retrieval-eval) compares retrieval rankings against shared relevance judgments and runs a local BM25 baseline. A [community contribution by Rewas](https://github.com/henrivalle/rag-retrieval-eval/pull/2) added a Portuguese comparison example with synthetic data.
+- [CASC Audio Lab](https://github.com/henrivalle/casc-audio-lab) compares speech recognition transcripts against references using word error rate. It adapts the speech recognition stage of a UniEVANGÉLICA team capstone for local experiments.
+- [LLM JSON Contract](https://github.com/henrivalle/llm-json-contract) checks saved model outputs against a JSON Schema. [LLM Latency Compare](https://github.com/henrivalle/llm-latency-compare) compares matched request timings and checks for regressions in CI.
+
+## Open-source contributions
+
+- [Classic Robocode](https://github.com/robo-code/robocode/pull/132) merged my fix so a failed silent installation returns a nonzero exit status, allowing scripts to detect the failure.
+
+## Teaching and research software
 
 - **Robocode Classroom** deploys Classic Robocode for Java labs in a browser with Docker Compose and noVNC. I use it to teach Algorithms and Programming at UniEVANGÉLICA. [Repository](https://github.com/henrivalle/robocode) · [Release](https://github.com/henrivalle/robocode/releases/tag/v0.1.0-rc.1)
 - **Slice Admission Bench** is a public teaching tool inspired by my doctoral research. It compares admission policies under bandwidth and compute constraints using reproducible synthetic workloads. [Repository](https://github.com/henrivalle/slice-admission-bench)
